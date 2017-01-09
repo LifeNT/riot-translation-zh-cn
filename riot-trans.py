@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-
 #说明：这个脚本程序可以读取riot的界面字符串，替换为中文字符
 #最新版本riot下载地址：https://github.com/vector-im/riot-web
- 
+#请将该文件复制到riot根目录，运行，输入bundle.*.js文件名称，执行替换即可汉化。
 import re,os,sys
 
 
@@ -244,14 +243,6 @@ word_dic = {
 '"If it matches, press the verify button below. If it doesnt, then someone else is intercepting this device and you probably want to press the blacklist button instead."':'"如果对方的信息与上述一致，请点击信任按钮，如果不一致，说明有人在冒充对方与你聊天，请立即拉黑该设备！"',
 '"In future this verification process will be more sophisticated."':'"今后这一验证过程将会更加复杂（可靠）"',
 '"I verify that the keys match"':'"我确认他的身份可信"',
-
-
-
-
-
-
-
-
 
 
 }
